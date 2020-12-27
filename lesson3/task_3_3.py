@@ -1,5 +1,6 @@
 
 def my_func(num_1, num_2, num_3):
+
     if num_1 >= num_3 and num_2 >= num_3:
         return num_1 + num_2
     elif num_1 < num_2 and num_1 < num_3:

@@ -3,8 +3,9 @@
 # Функция должна принимать параметры как именованные аргументы. Реализовать вывод данных о пользователе одной строкой.
 
 def my_list(**contacts):
+
     for key, val in contacts.items():
-        print(key, val, end=' ')
+        print(val, end=' ')
 
 my_list(name=input('Введите ваше имя: '),
         surname=input('Введите вашу фамилию: '),
