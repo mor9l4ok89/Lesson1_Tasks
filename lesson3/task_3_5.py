@@ -7,11 +7,3 @@ def my_func():
     return sum
 
 print(my_func())
-
-try:
-    if num == num.isalpha():
-        print('Ваша сумма - {}, функция завершается'.format(sum))
-        break
-except:
-    print('Ваша сумма - {}, функция продолжается'.format(sum))
-    continue
