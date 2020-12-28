@@ -1,6 +1,7 @@
 
-def int_func():
-    print(input('Введите слово мелким шрифтом: ').capitalize())
-    print(input('Введите несколько слов мелким шрифтом: ').title())
-
-int_func()
+a = input('Введите слово прописью: ')
+def int_func(word):
+        return word.title()
+print(int_func(a))
+a = input('Введите несколько слов прописью: ')
+print(int_func(a))
